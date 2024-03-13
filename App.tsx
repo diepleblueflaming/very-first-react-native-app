@@ -9,8 +9,8 @@ import React from 'react';
 import Home from './pages/Home';
 
 
-function App(): React.JSX.Element {
-  return <Home />;
+function App(props): React.JSX.Element {
+  return <Home {...props}/>;
 }
 
 export default App;
